@@ -1,0 +1,118 @@
+.navBar {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff40;
+  border: 1px solid #ffffff2e;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  position: fixed;
+  z-index: 2;
+
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+
+    padding: 0;
+
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    @media screen and (min-width: 2000px) {
+      font-size: 25px;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+
+    li {
+      list-style: none;
+      color: var(--gray-color);
+      transition: all 0.2s ease-out;
+    }
+
+    a:hover {
+      color: var(--secondary-color);
+      cursor: pointer;
+    }
+  }
+
+  &__imgContainer {
+    width: 90px;
+
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+    }
+  }
+}
+
+.navBar__menu {
+  display: none;
+
+  &-open {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--secondary-color);
+
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+  }
+
+  &-close {
+    width: 45px;
+    height: 45px;
+    color: var(--secondary-color);
+
+    background: none;
+    align-self: flex-end;
+
+    cursor: pointer;
+  }
+
+  &-sidePanel {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 100vh;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+    z-index: 1;
+
+    background: url("../../assets/bgWhite.png");
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  li {
+    list-style: none;
+    color: var(--gray-color);
+    transition: all 0.2s ease-out;
+  }
+
+  a:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+}
