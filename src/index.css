@@ -103,16 +103,3 @@ textarea:not([rows]) {
   --brown-color: #46364a;
   --white-color: #ffffff;
 }
-
-.p-text {
-  font-size: 0.8rem;
-  text-align: left;
-  color: var(--gray-color);
-  line-height: 1.5;
-}
-
-@media screen and (min-width: 2000px) {
-  .p-text {
-    font-size: 1.75rem;
-  }
-}

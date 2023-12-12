@@ -19,7 +19,7 @@ const Navbar = () => {
       <ul className="navBar__main">
         {navList.map((item) => (
           <li key={item.id}>
-            <a href="#">{item.section}</a>
+            <a href={`#${item.id}`}>{item.section}</a>
           </li>
         ))}
       </ul>
