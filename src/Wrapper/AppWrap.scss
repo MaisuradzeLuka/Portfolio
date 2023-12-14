@@ -2,10 +2,33 @@
   display: flex;
   justify-content: space-between;
 
-  background: url("../assets/bgIMG.webp");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
 
   padding: 0 25px 10px 25px;
+
+  &-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    flex: 1;
+  }
+
+  .copyright {
+    width: 200px;
+    text-transform: uppercase;
+
+    p {
+      text-align: right;
+      color: #000;
+    }
+    position: absolute;
+    right: 50px;
+  }
+}
+
+#home {
+  background: url("../assets/bgIMG.webp");
 }
