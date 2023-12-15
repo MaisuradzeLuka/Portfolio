@@ -7,7 +7,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <article className="about">
+    <motion.article
+      className="about"
+      whileInView={{ y: [200, 0], opacity: [0, 1] }}
+      transition={{ duration: 0.5 }}
+    >
       <h2 className="about__title">
         I Know That <span>Good Dev</span> Means <br />{" "}
         <span>Good Business</span>
@@ -26,7 +30,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </article>
+    </motion.article>
   );
 };
 

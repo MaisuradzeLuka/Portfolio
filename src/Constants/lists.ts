@@ -38,3 +38,55 @@ export const aboutList = [
     img: images.about01,
   },
 ];
+
+export const workList = [
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "projec1",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project2",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project3",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project4",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project5",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    title: "Project",
+    img: images.about03,
+    id: "project6",
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+];

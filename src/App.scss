@@ -85,4 +85,8 @@
   .active {
     background-color: var(--secondary-color);
   }
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 }
