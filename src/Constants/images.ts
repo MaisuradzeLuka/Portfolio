@@ -22,6 +22,8 @@ import about01 from "../assets/about01.webp";
 import about02 from "../assets/about02.webp";
 import about03 from "../assets/about03.webp";
 import about04 from "../assets/about04.webp";
+import shoppingCart from "../assets/shopping-cart.webp";
+import cvPage from "../assets/cv-page.webp";
 
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
@@ -58,6 +60,8 @@ export default {
   about02,
   about03,
   about04,
+  shoppingCart,
+  cvPage,
   profile,
   circle,
   logo,

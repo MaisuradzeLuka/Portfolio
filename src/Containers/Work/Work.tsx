@@ -21,14 +21,14 @@ const Work = () => {
           <div key={item.id} className="worksList__work">
             <img src={item.img} alt={item.title} />
             <h3>{item.title}</h3>
-            <div className="imgOverlay">
+            <motion.div className="imgOverlay" whileHover={{ opacity: [0, 1] }}>
               <a href={item.projectUrl} target="_blank">
                 <FaEye />
               </a>
               <a href={item.codeUrl} target="_blank">
                 <FaGithub />
               </a>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

@@ -41,18 +41,18 @@ export const aboutList = [
 
 export const workList = [
   {
-    title: "Project",
-    img: images.about03,
-    id: "project",
-    projectUrl: "#",
-    codeUrl: "#",
+    title: "Shoppin Cart",
+    img: images.shoppingCart,
+    id: "shoppingCart",
+    projectUrl: "https://shopping-cart-roan-zeta.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Shopping-Cart",
   },
   {
-    title: "Project",
-    img: images.about03,
-    id: "projec1",
-    projectUrl: "#",
-    codeUrl: "#",
+    title: "Cv Page",
+    img: images.cvPage,
+    id: "cvPage",
+    projectUrl: "https://cv-page-one.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
   },
   {
     title: "Project",

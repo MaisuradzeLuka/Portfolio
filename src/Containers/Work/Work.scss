@@ -4,7 +4,7 @@
   align-items: center;
   gap: 100px;
 
-  max-width: 950px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 100px 0;
 
@@ -25,12 +25,12 @@
   flex-wrap: wrap;
 
   &__work {
-    width: 270px;
+    width: 330px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 
     background-color: #fff;
     border-radius: 8px;
@@ -41,7 +41,7 @@
 
     img {
       border-radius: 8px;
-      height: 200px;
+      height: 220px;
       object-fit: cover;
     }
 
@@ -56,6 +56,7 @@
       justify-content: center;
       gap: 40px;
       align-items: center;
+      opacity: 0;
 
       svg {
         color: #fff;
@@ -70,6 +71,10 @@
       svg:hover {
         scale: 0.9;
       }
+    }
+
+    &:hover {
+      box-shadow: 0 0 25px #00000033;
     }
   }
 }
