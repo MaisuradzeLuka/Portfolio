@@ -90,3 +90,49 @@ export const workList = [
     codeUrl: "#",
   },
 ];
+
+export const skillsList = [
+  {
+    title: "Html",
+    id: "html",
+    img: images.html,
+    bgColor: "rgb(255, 244, 242)",
+  },
+  { title: "Css", id: "css", img: images.css, bgColor: "rgb(221, 232, 238)" },
+  {
+    title: "Javascript",
+    id: "javascript",
+    img: images.javascript,
+    bgColor: "rgb(253, 247, 209)",
+  },
+  {
+    title: "React",
+    id: "react",
+    img: images.react,
+    bgColor: "rgb(236, 252, 255)",
+  },
+];
+
+export const experienceList = [
+  {
+    title: "Html",
+    date: 2022,
+    description:
+      "some descrioption of experiencesome descrioption of experiencesome descrioption of experience",
+    id: "html",
+  },
+  {
+    title: "Html",
+    date: 2022,
+    description:
+      "some descrioption of experiencesome descrioption of experiencesome descrioption of experience",
+    id: "html2",
+  },
+  {
+    title: "Html",
+    date: 2022,
+    description:
+      "some descrioption of experiencesome descrioption of experiencesome descrioption of experience",
+    id: "html3",
+  },
+];
