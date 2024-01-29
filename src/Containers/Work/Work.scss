@@ -15,6 +15,14 @@
     span {
       color: var(--secondary-color);
     }
+
+    @media screen and (min-width: 1920px) {
+      font-size: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 1800px;
   }
 }
 
@@ -47,7 +55,7 @@
 
     .imgOverlay {
       position: absolute;
-      height: 200px;
+      height: 220px;
       width: calc(100% - 40px);
       background-color: #00000080;
       border-radius: 8px;
@@ -71,10 +79,28 @@
       svg:hover {
         scale: 0.9;
       }
+
+      @media screen and (min-width: 1920px) {
+        height: 370px;
+      }
     }
 
     &:hover {
       box-shadow: 0 0 25px #00000033;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    &__work {
+      width: 440px;
+
+      img {
+        height: 370px;
+      }
+
+      h3 {
+        font-size: 32px;
+      }
     }
   }
 }

@@ -20,6 +20,10 @@
     @media screen and (max-width: 600px) {
       font-size: 30px;
     }
+
+    @media screen and (min-width: 1920px) {
+      font-size: 60px;
+    }
   }
 }
 
@@ -46,6 +50,26 @@
     p {
       font-size: 12px;
       color: var(--gray-color);
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 138px;
+
+    &-card {
+      width: 370px;
+
+      img {
+        height: 320px;
+      }
+
+      h3 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 24px;
+      }
     }
   }
 }

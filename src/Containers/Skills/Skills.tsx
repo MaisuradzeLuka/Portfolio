@@ -11,6 +11,7 @@ const Skills = () => {
       transition={{ duration: 0.5 }}
     >
       <h2>Skills & Experience</h2>
+
       <div className="contentWrapper">
         <ul className="contentWrapper__skills">
           {skillsList.map((item) => (
@@ -24,6 +25,7 @@ const Skills = () => {
             </li>
           ))}
         </ul>
+
         <article className="contentWrapper__experiences">
           {experienceList.map((item) => (
             <div
