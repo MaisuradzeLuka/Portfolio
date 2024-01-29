@@ -18,12 +18,14 @@
     }
   }
 
-  div {
+  &__inputs {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
+    height: max-content;
 
-    * {
+    input,
+    textarea {
       border-radius: 7px;
       border: none;
       outline: none;
@@ -37,8 +39,17 @@
       }
     }
 
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      color: #dc143c;
+    }
+
     textarea {
       resize: none;
+      height: 200px;
     }
   }
 

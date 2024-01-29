@@ -7,6 +7,7 @@ import { useState } from "react";
 
 import { images } from "../../Constants";
 import { navList } from "../../Constants/lists";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [showNavBar, setShowNavBar] = useState(false);
@@ -45,7 +46,14 @@ const Navbar = () => {
               return (
                 <ul key={item.id}>
                   <li>
-                    <a href="#">{item.section}</a>
+                    <Link
+                      to={item.id}
+                      smooth={true}
+                      duration={500}
+                      onClick={() => setShowNavBar(false)}
+                    >
+                      {item.section}
+                    </Link>
                   </li>
                 </ul>
               );

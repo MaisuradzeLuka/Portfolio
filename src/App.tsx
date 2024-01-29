@@ -1,11 +1,14 @@
 import { Header, Work, About, Skills, Contact } from "./Containers";
 
 import "./App.scss";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 import { Navbar } from "./Components";
 
 const App = () => {
   return (
     <>
+      <ToastContainer />
       <Navbar />
       <Header />
       <About />
