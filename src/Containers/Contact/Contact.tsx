@@ -37,7 +37,7 @@ const Contact = () => {
     { resetForm }: FormikHelpers<IInitialValues>
   ) => {
     emailjs
-      .send("service_d05qpib", "template_q3fuipr", values, "M8p_b-nfnjPIzQPku")
+      .send("service_5lrgnqe", "template_480m788", values, "_NLcgBgxm-anuQEVp")
       .then(() =>
         toast.success("Email has been sent", {
           position: "top-center",
