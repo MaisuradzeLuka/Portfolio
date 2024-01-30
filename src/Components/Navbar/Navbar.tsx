@@ -20,7 +20,14 @@ const Navbar = () => {
       <ul className="navBar__main">
         {navList.map((item) => (
           <li key={item.id}>
-            <a href={`#${item.id}`}>{item.section}</a>
+            <Link
+              to={item.id}
+              smooth={true}
+              duration={500}
+              onClick={() => setShowNavBar(false)}
+            >
+              {item.section}
+            </Link>
           </li>
         ))}
       </ul>
