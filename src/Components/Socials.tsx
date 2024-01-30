@@ -3,15 +3,15 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 const Socials = () => {
   return (
     <div className="socials">
-      <div>
+      <a href="https://github.com/MaisuradzeLuka" target="_blank">
         <FaGithub />
-      </div>
-      <div>
+      </a>
+      <a href="#" target="_blank">
         <FaLinkedin />
-      </div>
-      <div>
+      </a>
+      <a href="https://www.facebook.com/luka.gio.5" target="_blank">
         <FaFacebook />
-      </div>
+      </a>
     </div>
   );
 };

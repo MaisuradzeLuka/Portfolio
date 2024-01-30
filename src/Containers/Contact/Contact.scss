@@ -1,6 +1,6 @@
 .contact {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 80px auto;
   padding: 100px;
 
   display: flex;
@@ -45,6 +45,10 @@
       gap: 10px;
 
       color: #dc143c;
+
+      @media screen and (min-width: 1920px) {
+        font-size: 20px;
+      }
     }
 
     textarea {

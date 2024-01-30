@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
-
-import "./Header.scss";
 import { images } from "../../Constants";
-
 import AppWrap from "../../Wrapper/AppWrap";
+import "./Header.scss";
 
 const Header: React.FC = () => {
   return (
@@ -47,7 +45,7 @@ const Header: React.FC = () => {
         whileInView={{ scale: [0, 1], opacity: [0, 1] }}
         transition={{ duration: 1 }}
       >
-        {[images.flutter, images.redux, images.sass].map((circle, index) => {
+        {[images.typescript, images.react, images.sass].map((circle, index) => {
           return (
             <div className="circle" key={`circle-${index}`}>
               <img src={circle} alt="circle" />
