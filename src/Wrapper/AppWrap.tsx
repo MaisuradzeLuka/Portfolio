@@ -13,7 +13,7 @@ const AppWrap = (Component: React.FC, idName: string) =>
 
           {idName !== "home" && (
             <div className="copyright">
-              <p className="p-text">@2020 MICHAEL</p>
+              <p className="p-text">@2023 MAISURADZE</p>
               <p className="p-text">All rights reserved</p>
             </div>
           )}

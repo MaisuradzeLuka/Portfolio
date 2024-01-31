@@ -34,12 +34,13 @@ export const aboutList = [
 
 export const workList = [
   {
-    title: "Shoppin Cart",
-    img: images.shoppingCart,
-    id: "shoppingCart",
-    projectUrl: "https://shopping-cart-roan-zeta.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Shopping-Cart",
+    title: "Blogs",
+    img: images.blogs,
+    id: "blogs",
+    projectUrl: "https://redberry-2023.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2023",
   },
+
   {
     title: "Cv Page",
     img: images.cvPage,
@@ -48,11 +49,11 @@ export const workList = [
     codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
   },
   {
-    title: "Blogs",
-    img: images.blogs,
-    id: "blogs",
-    projectUrl: "https://redberry-2023.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2023",
+    title: "Shoppin Cart",
+    img: images.shoppingCart,
+    id: "shoppingCart",
+    projectUrl: "https://shopping-cart-roan-zeta.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Shopping-Cart",
   },
 ];
 
