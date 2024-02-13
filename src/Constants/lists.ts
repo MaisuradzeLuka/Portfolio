@@ -40,6 +40,13 @@ export const workList = [
     projectUrl: "https://redberry-2023.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2023",
   },
+  {
+    title: "TouTube Clone",
+    img: images.youtube_clone,
+    id: "blogs",
+    projectUrl: "https://you-tube-clone-1dcvpqyp9-maisuradzeluka.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/YouTube_Clone",
+  },
 
   {
     title: "Cv Page",
