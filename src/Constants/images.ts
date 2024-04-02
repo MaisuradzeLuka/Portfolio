@@ -14,6 +14,7 @@ import shoppingCart from "../assets/shopping-cart.webp";
 import cvPage from "../assets/cv-page.webp";
 import blogs from "../assets/blogs.webp";
 import youtube_clone from "../assets/YouTube_clone.webp";
+import travel_app from "../assets/Travel-App.webp";
 
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
@@ -22,6 +23,7 @@ import logo from "../assets/logo.webp";
 import firebase from "../assets/firebase.webp";
 
 export default {
+  travel_app,
   youtube_clone,
   blogs,
   logo,

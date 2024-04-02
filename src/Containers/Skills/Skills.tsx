@@ -1,7 +1,7 @@
-import "./Skills.scss";
 import AppWrap from "../../Wrapper/AppWrap";
 import { motion } from "framer-motion";
 import { skillsList, experienceList } from "../../Constants/lists";
+import "./Skills.scss";
 
 const Skills = () => {
   return (
@@ -21,7 +21,7 @@ const Skills = () => {
                 alt={item.title}
                 style={{ backgroundColor: item.bgColor }}
               />
-              <h4>{item.title}</h4>
+              <h3>{item.title}</h3>
             </li>
           ))}
         </ul>

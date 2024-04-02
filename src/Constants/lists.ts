@@ -62,6 +62,13 @@ export const workList = [
     projectUrl: "https://shopping-cart-roan-zeta.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/Shopping-Cart",
   },
+  {
+    title: "Travel App",
+    img: images.travel_app,
+    id: "travelApp",
+    projectUrl: "https://travel-app-eta-jet.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Travel-app",
+  },
 ];
 
 export const skillsList = [
