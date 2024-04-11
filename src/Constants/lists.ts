@@ -47,7 +47,13 @@ export const workList = [
     projectUrl: "https://you-tube-clone-1dcvpqyp9-maisuradzeluka.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/YouTube_Clone",
   },
-
+  {
+    title: "Car Hub",
+    img: images.car_hub,
+    id: "carHub",
+    projectUrl: "https://car-hub-mauve-gamma.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/CarHub",
+  },
   {
     title: "Cv Page",
     img: images.cvPage,
