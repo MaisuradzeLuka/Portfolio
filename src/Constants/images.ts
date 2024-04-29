@@ -10,7 +10,7 @@ import about01 from "../assets/about01.webp";
 import about02 from "../assets/about02.webp";
 import about03 from "../assets/about03.webp";
 import about04 from "../assets/about04.webp";
-import shoppingCart from "../assets/shopping-cart.webp";
+import langQuize from "../assets/lang-quize.webp";
 import cvPage from "../assets/cv-page.webp";
 import blogs from "../assets/blogs.webp";
 import youtube_clone from "../assets/YouTube_clone.webp";
@@ -40,7 +40,7 @@ export default {
   about02,
   about03,
   about04,
-  shoppingCart,
+  langQuize,
   cvPage,
   profile,
   circle,

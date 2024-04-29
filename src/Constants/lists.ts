@@ -62,11 +62,11 @@ export const workList = [
     codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
   },
   {
-    title: "Shoppin Cart",
-    img: images.shoppingCart,
+    title: "Language quiz",
+    img: images.langQuize,
     id: "shoppingCart",
-    projectUrl: "https://shopping-cart-roan-zeta.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Shopping-Cart",
+    projectUrl: "https://language-tester.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
   },
   {
     title: "Travel App",
