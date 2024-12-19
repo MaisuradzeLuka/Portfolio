@@ -34,11 +34,11 @@ export const aboutList = [
 
 export const workList = [
   {
-    title: "Blogs",
-    img: images.blogs,
+    title: "Yc-directory",
+    img: images.yc_directory,
     id: "blogs",
-    projectUrl: "https://redberry-2023.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2023",
+    projectUrl: "https://yc-directory-gilt.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/YC-directory",
   },
   {
     title: "TouTube Clone",
@@ -61,13 +61,13 @@ export const workList = [
     projectUrl: "https://cv-page-one.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
   },
-  {
-    title: "Language quiz",
-    img: images.langQuize,
-    id: "shoppingCart",
-    projectUrl: "https://language-tester.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
-  },
+  // {
+  //   title: "Language quiz",
+  //   img: images.langQuize,
+  //   id: "shoppingCart",
+  //   projectUrl: "https://language-tester.vercel.app/",
+  //   codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
+  // },
   {
     title: "Travel App",
     img: images.travel_app,

@@ -16,6 +16,7 @@ import blogs from "../assets/blogs.webp";
 import youtube_clone from "../assets/YouTube_clone.webp";
 import travel_app from "../assets/Travel-App.webp";
 import car_hub from "../assets/Car-Hub.webp";
+import yc_directory from "../assets/yc-directory.webp.png";
 
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
@@ -24,6 +25,7 @@ import logo from "../assets/logo.webp";
 import firebase from "../assets/firebase.webp";
 
 export default {
+  yc_directory,
   car_hub,
   travel_app,
   youtube_clone,
