@@ -41,6 +41,13 @@ export const workList = [
     codeUrl: "https://github.com/MaisuradzeLuka/YC-directory",
   },
   {
+    title: "Language Tester",
+    img: images.langQuize,
+    id: "shoppingCart",
+    projectUrl: "https://language-tester.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
+  },
+  {
     title: "TouTube Clone",
     img: images.youtube_clone,
     id: "blogs",
@@ -61,13 +68,6 @@ export const workList = [
     projectUrl: "https://cv-page-one.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
   },
-  // {
-  //   title: "Language quiz",
-  //   img: images.langQuize,
-  //   id: "shoppingCart",
-  //   projectUrl: "https://language-tester.vercel.app/",
-  //   codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
-  // },
   {
     title: "Travel App",
     img: images.travel_app,
