@@ -6,7 +6,10 @@ const Socials = () => {
       <a href="https://github.com/MaisuradzeLuka" target="_blank">
         <FaGithub />
       </a>
-      <a href="#" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/luka-maisuradze-a5041b303"
+        target="_blank"
+      >
         <FaLinkedin />
       </a>
       <a href="https://www.facebook.com/luka.gio.5" target="_blank">

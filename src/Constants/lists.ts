@@ -2,37 +2,20 @@ import { images } from "../Constants";
 
 export const navList = [
   { section: "Home", id: "home" },
-  { section: "About", id: "about" },
   { section: "Work", id: "work" },
   { section: "Skills", id: "skills" },
   { section: "Contact", id: "contact" },
 ];
 
-export const aboutList = [
-  {
-    title: "Front-End Developer",
-    description:
-      "I am a frontend developer with a passion for building beautiful and functional web applications.",
-    id: "frontend",
-    img: images.about01,
-  },
-  {
-    title: "Project Showcase",
-    description:
-      "My work revolves around bringing ideas to life through clean and efficient code.",
-    id: "showcase",
-    img: images.about02,
-  },
-  {
-    title: "Tech Stack Proficiency",
-    description:
-      "I specialize in crafting seamless user experiences. With expertise in popular front-end libraries and frameworks such as React.",
-    id: "proficiency",
-    img: images.about03,
-  },
-];
-
 export const workList = [
+  {
+    title: "Momentum",
+    img: images.memoentum,
+    id: "carHub",
+    projectUrl: "https://redberry-2025.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2025",
+  },
+
   {
     title: "Yc-directory",
     img: images.yc_directory,
@@ -40,13 +23,7 @@ export const workList = [
     projectUrl: "https://yc-directory-gilt.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/YC-directory",
   },
-  {
-    title: "Language Tester",
-    img: images.langQuize,
-    id: "shoppingCart",
-    projectUrl: "https://language-tester.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/Language-Tester",
-  },
+
   {
     title: "TouTube Clone",
     img: images.youtube_clone,
@@ -54,20 +31,7 @@ export const workList = [
     projectUrl: "https://you-tube-clone-1dcvpqyp9-maisuradzeluka.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/YouTube_Clone",
   },
-  {
-    title: "Car Hub",
-    img: images.car_hub,
-    id: "carHub",
-    projectUrl: "https://car-hub-mauve-gamma.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/CarHub",
-  },
-  {
-    title: "Cv Page",
-    img: images.cvPage,
-    id: "cvPage",
-    projectUrl: "https://cv-page-one.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/CvPage",
-  },
+
   {
     title: "Travel App",
     img: images.travel_app,
@@ -92,9 +56,9 @@ export const skillsList = [
     bgColor: "rgb(253, 247, 209)",
   },
   {
-    title: "React",
-    id: "react",
-    img: images.react,
+    title: "NextJs",
+    id: "nextjs",
+    img: images.nextjs,
     bgColor: "rgb(236, 252, 255)",
   },
   {
@@ -110,10 +74,10 @@ export const skillsList = [
     bgColor: "rgb(255, 230, 234)",
   },
   {
-    title: "Firebase",
-    id: "firebase",
-    img: images.firebase,
-    bgColor: "rgba(255, 255, 160)",
+    title: "Mongodb",
+    id: "mongodb",
+    img: images.mongodb,
+    bgColor: "rgba(0, 145, 96, 0.31)",
   },
 ];
 

@@ -14,13 +14,15 @@ const Work = () => {
       transition={{ duration: 0.5 }}
     >
       <h2>
-        My Creative <span>Portfolio</span>
+        My <span>Portfolio</span>
       </h2>
       <div className="worksList">
         {workList.map((item) => (
           <div key={item.id} className="worksList__work">
             <img src={item.img} alt={item.title} />
+
             <h3>{item.title}</h3>
+
             <motion.div className="imgOverlay" whileHover={{ opacity: [0, 1] }}>
               <a href={item.projectUrl} target="_blank">
                 <FaEye />

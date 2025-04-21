@@ -1,4 +1,4 @@
-import { Header, Work, About, Skills, Contact } from "./Containers";
+import { Header, Work, Skills, Contact } from "./Containers";
 
 import "./App.scss";
 import "react-toastify/dist/ReactToastify.css";
@@ -11,7 +11,7 @@ const App = () => {
       <ToastContainer />
       <Navbar />
       <Header />
-      <About />
+      {/* <About /> */}
       <Work />
       <Skills />
       <Contact />

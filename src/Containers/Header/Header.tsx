@@ -22,6 +22,7 @@ const Header: React.FC = () => {
           <p className="p-text">Web Developer</p>
         </div>
       </motion.div>
+
       <motion.div className="header__profile">
         <motion.img
           animate={{ opacity: [0, 1], scale: [0, 1] }}
@@ -40,18 +41,21 @@ const Header: React.FC = () => {
           className="profile-img"
         />
       </motion.div>
+
       <motion.div
         className="header__circles"
         whileInView={{ scale: [0, 1], opacity: [0, 1] }}
         transition={{ duration: 1 }}
       >
-        {[images.typescript, images.react, images.sass].map((circle, index) => {
-          return (
-            <div className="circle" key={`circle-${index}`}>
-              <img src={circle} alt="circle" />
-            </div>
-          );
-        })}
+        {[images.typescript, images.nextjs, images.tailwindcss].map(
+          (circle, index) => {
+            return (
+              <div className="circle" key={`circle-${index}`}>
+                <img src={circle} alt="circle" />
+              </div>
+            );
+          }
+        )}
       </motion.div>
     </header>
   );
