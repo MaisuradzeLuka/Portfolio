@@ -11,15 +11,23 @@ export const workList = [
   {
     title: "Momentum",
     img: images.memoentum,
-    id: "carHub",
+    id: "momentum",
     projectUrl: "https://redberry-2025.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/Redberry-2025",
   },
 
   {
+    title: "Linkedin Clone",
+    img: images.linkedin_clone,
+    id: "linkedin",
+    projectUrl: "https://linkedin-clone-9i4j.onrender.com/",
+    codeUrl: "https://github.com/MaisuradzeLuka/linkedin-clone",
+  },
+
+  {
     title: "Yc-directory",
     img: images.yc_directory,
-    id: "blogs",
+    id: "yc-directory",
     projectUrl: "https://yc-directory-gilt.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/YC-directory",
   },
@@ -27,7 +35,7 @@ export const workList = [
   {
     title: "TouTube Clone",
     img: images.youtube_clone,
-    id: "blogs",
+    id: "ty_clone",
     projectUrl: "https://you-tube-clone-1dcvpqyp9-maisuradzeluka.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/YouTube_Clone",
   },

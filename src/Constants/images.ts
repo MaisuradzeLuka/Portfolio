@@ -12,6 +12,7 @@ import travel_app from "../assets/travel-app.png";
 import car_hub from "../assets/travel-app.png";
 import yc_directory from "../assets/ys-directory.png";
 import memoentum from "../assets/momentum.png";
+import linkedin_clone from "../assets/Linkedin-clone.png";
 
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
@@ -23,6 +24,7 @@ export default {
   travel_app,
   youtube_clone,
   memoentum,
+  linkedin_clone,
 
   logo,
   css,
