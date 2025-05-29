@@ -20,7 +20,7 @@ export const workList = [
     title: "Linkedin Clone",
     img: images.linkedin_clone,
     id: "linkedin",
-    projectUrl: "https://linkedin-clone-9i4j.onrender.com/",
+    projectUrl: "https://linkedin-clone-woad-sigma.vercel.app/",
     codeUrl: "https://github.com/MaisuradzeLuka/linkedin-clone",
   },
 
