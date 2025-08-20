@@ -9,6 +9,14 @@ export const navList = [
 
 export const workList = [
   {
+    title: "Bookwise",
+    img: images.bookwise,
+    id: "bookwise",
+    projectUrl: "https://bookwise-mauve-three.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/bookwise",
+  },
+
+  {
     title: "Momentum",
     img: images.memoentum,
     id: "momentum",
@@ -25,11 +33,11 @@ export const workList = [
   },
 
   {
-    title: "Yc-directory",
-    img: images.yc_directory,
-    id: "yc-directory",
-    projectUrl: "https://yc-directory-gilt.vercel.app/",
-    codeUrl: "https://github.com/MaisuradzeLuka/YC-directory",
+    title: "Image Generator",
+    img: images.image_generator,
+    id: "imageGenerator",
+    projectUrl: "https://image-generator-nu-ivory.vercel.app/",
+    codeUrl: "https://github.com/MaisuradzeLuka/image-generator",
   },
 
   {

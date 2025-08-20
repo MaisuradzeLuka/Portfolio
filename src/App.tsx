@@ -11,7 +11,6 @@ const App = () => {
       <ToastContainer />
       <Navbar />
       <Header />
-      {/* <About /> */}
       <Work />
       <Skills />
       <Contact />

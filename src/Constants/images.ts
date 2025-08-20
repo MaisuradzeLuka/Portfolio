@@ -13,6 +13,8 @@ import car_hub from "../assets/travel-app.png";
 import yc_directory from "../assets/ys-directory.png";
 import memoentum from "../assets/momentum.png";
 import linkedin_clone from "../assets/Linkedin-clone.png";
+import bookwise from "../assets/bookwise.webp";
+import image_generator from "../assets/image-generator.png";
 
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
@@ -25,6 +27,8 @@ export default {
   youtube_clone,
   memoentum,
   linkedin_clone,
+  bookwise,
+  image_generator,
 
   logo,
   css,
