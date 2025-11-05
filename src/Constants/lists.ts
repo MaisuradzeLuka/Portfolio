@@ -102,20 +102,22 @@ export const experienceList = [
     title: "Bitcamp",
     date: 2022,
     description:
-      "Complteted Bitcamp's starter course (general programmer) and stage 1 (begginer web-developer: Html, Css and jacascript)",
+      "Completed the first and second stages of Bitcamp’s programing course, which focuses on giving begginer developers basics, that are essential for every programer.  And stared working independently on individual projects. ",
     id: "bitcamp",
   },
-  {
-    title: "Contests",
-    date: 2023,
-    description:
-      "Participated in Redberry and Bitcamp contests which gave me lots of experience",
-    id: "contests",
-  },
+
   {
     title: "Epam",
-    date: 2023,
-    description: "Completed Epam learning program with high score",
+    date: 2024,
+    description:
+      "Completed Epam learning program in Front-end development, which is focusing on giving full theoreitical knowledge and practical experience,which is needed for junio front end developer,",
     id: "epam",
+  },
+  {
+    title: "Internship",
+    date: 2025,
+    description:
+      "Worked as an intern on a full-stack project in a team of four junior and one senior developer. My role as a front-end developer involved building the client-side UI and API integrations. I also gained experience with server-side CRUD operations and teamwork in an agile environment.",
+    id: "internship",
   },
 ];
